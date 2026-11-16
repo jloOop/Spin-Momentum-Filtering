@@ -71,22 +71,6 @@ $D_T$ counts detections by $T$; $\bar{\tau}^{\mathrm{cond}}_T$ averages only
 those clicks; $\mu^\ast$ assigns time $T$ to trials still undetected.
 
 
-
-
-For density $g(t)$ and survival $S(t)$, three finite-window observables must be distinguished:
-
-```math
-D_T=\int_0^T g(t)\,dt,\qquad
-\overline\tau_{\rm cond}(T)=\frac{\int_0^T t g(t)\,dt}{D_T},
-```
-
-```math
-\mu^*(T)=\int_0^T S(t)\,dt
-=D_T\overline\tau_{\rm cond}(T)+T(1-D_T).
-```
-
-The identity describes the ideal detector law. Distributed numerical reductions retain event-derived $D_T$, stored survival and their small accounting discrepancy separately; casting and boundary-clamp losses are not clicks.
-
 | ω | D₄₀ | Conditional mean | Restricted mean μ*(40) |
 |---:|---:|---:|---:|
 | 1 | 0.952 | 4.663 | 6.358 |
