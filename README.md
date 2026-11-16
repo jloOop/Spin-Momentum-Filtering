@@ -25,6 +25,21 @@ Increasing tangential momentum suppresses this local absorption. The reflected p
 
 ## Detection is reshaped, not uniformly delayed
 
+The observable is the time of the detector's first click. For the reference
+setup, the upper boundary is the only probability sink. In units
+$\hbar=m=1$, its click-time density is
+
+```math
+g(t;\omega)=\kappa\int_{\Sigma_L}\Psi_\omega^\dagger\Psi_\omega\,dA
+=-\partial_t S(t;\omega),
+\qquad S(t;\omega)=\|\Psi_\omega(t)\|^2.
+```
+
+Here $\omega$ is the transverse confinement frequency. These curves are
+**not conditioned on detection**: their area up to the observation horizon
+$T$ is the detected fraction $D_T$, not necessarily one.
+
+
 The reference preparation has $L=20$, source center $z_c=10$, $k_z=\kappa=\pi$, Gaussian **amplitude** width $\sigma_\parallel=0.5$, and initial spinor $(1,0)^T$. The numerical roof is at the recorded endpoint-excluded coordinate, approximately $19.986666$, rather than exactly $20$.
 
 ![Full-window click-time distributions](data/centered/figures/Fig1a.png)
