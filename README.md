@@ -52,6 +52,27 @@ The reference preparation has $L=20$, source center $z_c=10$, $k_z=\kappa=\pi$, 
 
 Stronger confinement suppresses prompt detection and changes the relative weight and structure of the tail. The early conditional click time changes only weakly. Over the sampled confinements, the conditional mean increases at T=20,30,40; its T=10 behavior is weak and nonmonotonic. An early/late split is a statistical decomposition, not an identification of each peak with a unique trajectory or round trip.
 
+
+Three statistics separate detection probability from recorded-click timing:
+
+```math
+\begin{aligned}
+D_T(\omega)&=\int_0^T g(t;\omega)\,dt,\\
+\bar{\tau}^{\mathrm{cond}}_T(\omega)
+&=\frac{\int_0^T t\,g(t;\omega)\,dt}{D_T(\omega)},\\
+\mu^\ast(T;\omega)
+&=\int_0^T S(t;\omega)\,dt
+=D_T(\omega)\bar{\tau}^{\mathrm{cond}}_T(\omega)
++T[1-D_T(\omega)].
+\end{aligned}
+```
+
+$D_T$ counts detections by $T$; $\bar{\tau}^{\mathrm{cond}}_T$ averages only
+those clicks; $\mu^\ast$ assigns time $T$ to trials still undetected.
+
+
+
+
 For density $g(t)$ and survival $S(t)$, three finite-window observables must be distinguished:
 
 ```math
