@@ -142,7 +142,7 @@ diagnostics, not an assumed additional apparatus spin measurement.
 
 *Fig. S1 archived candidate: ω=1,300 branch fractions and laboratory-z polarization through T=40, with baseline 7100. [Native diagnostics](data/centered/native/7100/) and [reproduction levels](REPRODUCING.md) distinguish instantaneous traces from ratios of integrated quantities.*
 
-At ω=300 the integrated plus-branch fraction is approximately 0.946, detector-associated z-polarization approximately 0.097, and final whole-survivor z-polarization nearly 1. Momentum-dependent tangential branches are not fixed laboratory-z spin states. These results concern different weightings and ensembles: they are neither “95% spin-up absorption,” apparatus-spin measurements, nor the polarization of an isolated reflected packet. The neutral branch sector is retained.
+At \(\omega=300\), the integrated \(+\)-branch fraction is approximately \(0.946\), while the detector-associated \(z\)-polarization is approximately \(0.097\) and the final survivor polarization remains close to \(+1\). These statements concern different spin axes and conditioning. Unequal weights in the evolved boundary trace do not contradict equal local absorption probabilities for the two incident branches at fixed wave vector.
 
 ## Geometry, escape and the long tail
 
