@@ -50,7 +50,8 @@ The reference preparation has $L=20$, source center $z_c=10$, $k_z=\kappa=\pi$, 
 
 *Fig. 1b candidate: late-time detail for ω=1,50,150,300, from the separately identified export with the matching confinement subset. It also uses 7706 at ω=300. Late-profile structure remains resolution-sensitive; [native records](data/centered/native/7706/).*
 
-Stronger confinement suppresses prompt detection and changes the relative weight and structure of the tail. The early conditional click time changes only weakly. Over the sampled confinements, the conditional mean increases at T=20,30,40; its T=10 behavior is weak and nonmonotonic. An early/late split is a statistical decomposition, not an identification of each peak with a unique trajectory or round trip.
+
+Across the sampled confinements, stronger confinement suppresses prompt detection and reshapes the later signal; it does not simply shift the whole distribution to later times. The early-click conditional mean changes little, whereas the full-window conditional mean increases at \(T=20,30,40\). The increase in \(\mu^\ast\) combines changes in recorded-click timing with a larger fraction still undetected at the horizon. An early/late split is a statistical decomposition, not an identification of each peak with a unique trajectory or round trip.
 
 
 Three statistics separate detection probability from recorded-click timing:
