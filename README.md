@@ -96,7 +96,47 @@ Its coefficients summarize this preparation, geometry, detector and finite windo
 
 *Fig. 3 candidate: detected fraction, conditional mean and restricted mean at T=10,20,30,40 from common histories. This later export uses 7706 at ω=300, unlike Fig. 2. Open the image for full-resolution panel labels; [inputs](data/centered/native/figures_main/) and [version distinctions](PROJECT_SCOPE.md#source-version-differences).*
 
-## Branch weights and spin describe different ensembles
+
+## Boundary branches and particle-spin polarization
+
+**Branch fractions** describe the evolved field at the detecting plane,
+resolved into the two momentum-dependent spin branches—not laboratory
+$z$-spin up and down. Let $N_\pm(t)$ be their boundary-density weights and
+$N_0(t)$ the numerically neutral, zero-symbol sector. Then
+
+```math
+w_s^{\mathrm{br}}(t)=\frac{N_s(t)}{N(t)},
+\qquad
+\bar w_s^{\mathrm{br}}(T)=
+\frac{\int_0^T N_s(t)\,dt}{\int_0^T N(t)\,dt},
+\qquad
+N=N_++N_-+N_0.
+```
+
+Here $s\in\{+,-,0\}$; the neutral sector is not a third spin orientation.
+The integrated fractions are boundary-density-weighted, not simple time
+averages.
+
+**Spin polarization** instead uses a fixed laboratory axis. With
+$G_\omega(t)$ the detector-associated spin-matrix rate and $Q_\omega(t)$
+the reduced spin matrix of the entire surviving state,
+
+```math
+P_z^{\mathrm{det}}(t)=
+\frac{\mathrm{tr}[\sigma_zG_\omega(t)]}{\mathrm{tr}G_\omega(t)},
+\qquad
+P_z^{\mathrm{nc}}(t)=
+\frac{\mathrm{tr}[\sigma_zQ_\omega(t)]}{\mathrm{tr}Q_\omega(t)}.
+```
+
+Their denominators are the click density and survival probability,
+respectively. “nc” means no click. The window-integrated detector
+polarization averages detections over $[0,T]$, whereas $P_z^{\mathrm{nc}}(T)$
+describes the particles still inside the guide at $T$. These are model
+diagnostics, not an assumed additional apparatus spin measurement.
+
+
+
 
 [![Boundary branches and laboratory-z spin](data/centered/figures/FigS1.png)](data/centered/figures/FigS1.png)
 
